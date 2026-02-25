@@ -22,14 +22,14 @@ let button = document.getElementById("btn");
 			
 			setTimeout(() => {
 				
-				resolve(`Welcome, ${name}. You can vote`);
+				resolve(`Welcome, ${name}. You can vote.`);
 				
 			},4000);
 		}
 		else{
 			
 			setTimeout(() => {
-				reject(`Oh sorry ${name}. You aren't old enough`);
+				reject(`Oh sorry ${name}. You aren't old enough.);
 			},4000);
 		}
 	});
