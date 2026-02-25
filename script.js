@@ -10,7 +10,7 @@ let button = document.getElementById("btn");
 	 const ageValue = ageInput.value;
 	 const name = nameInput.value;
 
-	 if( age === "" || name === "") {
+	 if( ageValue === "" || name === "") {
 		 alert("Please enter valid details");
 		 return;
 	 }
