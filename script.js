@@ -29,7 +29,7 @@ let button = document.getElementById("btn");
 		else{
 			
 			setTimeout(() => {
-				reject(`Oh sorry ${name}. You aren't old enough.);
+				reject(`Oh sorry ${name}. You aren't old enough.`);
 			},4000);
 		}
 	});
